@@ -1,16 +1,41 @@
-# React + Vite
+# ⚡ FeedbackPulse
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> An AI-enhanced frontend dashboard that transforms raw, unstructured customer reviews and support tickets into actionable product insights, sentiment analytics, and draft support responses.
 
-Currently, two official plugins are available:
+![FeedbackPulse Banner](https://raw.githubusercontent.com/zaidmuneer72-droid/feedback-pulse/main/src/assets/hero.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 1. Project Brief
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### What problem does it solve?
+Product managers and customer success teams spend hours manually reading through disorganized app store reviews, support logs, and feedback forms to extract bug reports, high-priority issues, and feature requests. **FeedbackPulse** automates this workflow using generative AI to parse multi-review payloads into structured JSON data in real time.
 
-## Expanding the ESLint configuration
+### Who is it for?
+* **Product Managers** tracking critical sentiment shifts and recurring product issues.
+* **Customer Support Leads** needing consistent, high-quality drafted responses for user tickets.
+* **Engineering Leads** triaging bugs and urgent action items directly from user sentiment.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Why this idea?
+Most AI integrations in web applications are basic chat interfaces. FeedbackPulse demonstrates how an LLM can be meaningfully embedded into an operational UI using structured output constraints, producing high-value business analytics rather than generic chat text.
+
+---
+
+## 🚀 2. Live Application & Links
+
+* **Live App URL:** [https://feedback-pulse.vercel.app](https://feedback-pulse.vercel.app) *(Replace with your Vercel URL)*
+* **GitHub Repository:** [https://github.com/zaidmuneer72-droid/feedback-pulse](https://github.com/zaidmuneer72-droid/feedback-pulse)
+
+---
+
+## 🛠️ 3. Quick Setup & Local Installation
+
+Clone the repository and run the local development server in **under 2 minutes**:
+
+```bash
+# 1. Clone the repository
+git clone [https://github.com/zaidmuneer72-droid/feedback-pulse.git](https://github.com/zaidmuneer72-droid/feedback-pulse.git)
+cd feedback-pulse
+
+# 2. Install dependencies & start dev server
+npm install && npm run dev
