@@ -23,7 +23,7 @@ Most AI integrations in web applications are basic chat interfaces. FeedbackPuls
 
 ## 🚀 2. Live Application & Links
 
-* **Live App URL:** [https://feedback-pulse.vercel.app](https://feedback-pulse.vercel.app) *(Replace with your Vercel URL)*
+* **Live App URL:** [https://feedback-pulse.vercel.app](https://feedback-pulse.vercel.app) 
 * **GitHub Repository:** [https://github.com/zaidmuneer72-droid/feedback-pulse](https://github.com/zaidmuneer72-droid/feedback-pulse)
 
 ---
