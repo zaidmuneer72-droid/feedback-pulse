@@ -8,6 +8,10 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  esbuild: {
+    // Drops console.log and debugger statements in production builds automatically
+    drop: ['console', 'debugger'],
+  },
   test: {
     globals: true,
     environment: 'jsdom',
